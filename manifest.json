@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "FocusHai",
+    "version": "1.0.0",
+    "description": "Avoid distractions by covering surrounding screen around video on youtube and also pauses video as you switches tab and plays again when you comeback.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
+  

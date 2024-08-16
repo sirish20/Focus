@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      width: 200px;
+      padding-left: 10px; 
+      padding-right: 10px;
+      padding-top: 6px;
+    }
+    #toggleButton {
+      width: 100%;
+      padding: 10px;
+
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-family: 'Quicksand', sans-serif;
+    }
+    #toggleButton.off {
+      background-color: #f44336;
+    }
+    #heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <h2 id="heading"> Focus</h2>
+  <button id="toggleButton">Turn on Focus Mode</button>
+  <script src="popup.js"></script>
+</body>
+</html>

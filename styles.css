@@ -1,0 +1,27 @@
+#focus-top-overlay,
+#focus-bottom-overlay,
+#focus-left-overlay,
+#focus-right-overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  pointer-events: none;
+}
+
+#focus-top-overlay {
+  top: 0; 
+  left: 0;
+}
+
+#focus-bottom-overlay {
+  left: 0;
+}
+
+#focus-left-overlay {
+  left: 0;
+}
+
+#focus-right-overlay {
+  right: 0;
+}
+
