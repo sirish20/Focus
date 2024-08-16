@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "FocusHai",
+    "name": "Focus",
     "version": "1.0.0",
     "description": "Avoid distractions by covering surrounding screen around video on youtube and also pauses video as you switches tab and plays again when you comeback.",
     "permissions": ["activeTab", "scripting", "storage"],
